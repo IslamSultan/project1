@@ -1,0 +1,690 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+p{
+    font-size: 16px;
+    line-height: normal;
+}
+button{
+    border: none;
+    border-radius: 30px;
+    height: 30px;
+    cursor: pointer;
+    outline: none;
+}
+
+header{
+    display: flex;
+    padding: 10px 40px 10px 40px;
+    justify-content: flex-end;
+    align-items: center;
+    position: sticky;
+    top:0;
+}
+header ul {
+    display: flex;
+}
+.logo{
+    margin-right: auto;
+}
+
+.login-btn{
+    background-color: #f3f3f3;
+    font-size: 14px;
+    font-weight: 400;
+    width: 110px;
+    margin: 0 50px;
+}
+
+.login-btn:hover {
+    background-color:rgb(221, 221, 221);
+}
+.Sign-Up-btn{
+    background-color: #f3f3f3;
+    font-size: 14px;
+    font-weight: 400;
+    width: 110px;
+}
+
+.Sign-Up-btn:hover{
+    background-color:rgb(221, 221, 221);
+}
+
+.main-dscrpt{
+    margin: 15% 0 7% 0;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: #f3f3f3;
+}
+.frst-section{
+    background-image: linear-gradient(
+        0deg, rgba(8, 8, 8,1) 20%, 
+        rgba(0,0,0,0.835171568627451) 45%, 
+        rgba(255,255,255,0) 70%),
+    url(/img/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: top;
+    background-size: cover;
+    height: 80vh;
+}
+
+.cta{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 3% 40px 3% 40px;
+    padding-bottom: 5%;
+    
+}
+.cta h3 {
+    font-weight: 600;
+    text-transform: uppercase;
+    color:#f3f3f3;
+    font-size: 24px;
+    
+}
+.cta p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #f3f3f3;
+    margin: 10px 0px;
+}
+
+.cta button {
+    width: 120px;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #585159;
+    color: #f3f3f3;
+    
+}
+.cta button:hover{
+    background-color: #423c42;
+}
+
+.family{
+    display: flex;
+    align-items: center;
+}
+.family-cta{
+    margin-left:30px;
+    text-align: center;
+}
+.tour{
+    display: flex;
+    align-items: center;
+}
+.tour-cta{
+    margin-left:30px;
+    text-align: center;
+}
+.scroll-down{
+    text-align: center;
+}
+
+/* Second part of main page */
+
+.scnd-section{
+    background-image: linear-gradient( 
+    rgba(8,8,8,1) 5%, 
+    rgba(8,8,8,0.8) 35%, 
+    rgba(8,8,8,0.5) 50%, 
+    rgba(8,8,8,1) 75%, 
+    rgba(8,8,8,1) 90%), 
+    url(/img/Local\ Family\ 5\ -\ Tomáš\ Balbinder.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+  
+}
+.country-card{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 15% 0 3% 0;
+}
+.country-card h3 {
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+li{
+    list-style: none;
+}
+.kg{
+    background-color: #f3f3f3;
+    border-radius: 20px;
+    padding: 2% 4%;
+    font-size: 16px;
+}
+.kz{
+    background-color: #f3f3f3;
+    border-radius: 20px;
+    padding: 2% 4%;
+}
+.tj{
+    background-color: #f3f3f3;
+    border-radius: 20px;
+    padding: 2% 4%;
+}
+.nav-link-country{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #0e0e0e;
+}
+.country-card-dscrpt{
+    text-align: center;
+    font-size: 16px;
+    padding: 1% 0 3% 0;
+    color: #f3f3f3;
+    font-weight: 400;
+}
+
+.get-a-tour-quote-btn{
+    text-align: center;
+    padding-bottom:10%;
+}
+.get-a-tour-quote-btn button {
+    width: 180px;
+    font-weight: 500;
+    
+}
+.quote-btn:hover {
+    background-color: #cecece;
+}
+footer{
+    padding: 20px 450px 0 450px;
+    background-color: #080808;
+}
+.vl{
+    border-top: 1px solid #f3f3f3 ;
+    margin: 5% 0;
+}
+footer ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 2%;
+
+
+}
+
+.nav-links {
+    text-decoration: none;
+    font-size: 16px;
+    color: #f3f3f3;
+}
+footer p{
+    color: #f3f3f3;
+    text-align: center;
+    font-weight: 300;
+    font-size: 12px;
+    padding-bottom: 3%;
+}
+
+
+
+/* Families page */
+
+.family-page{
+    background: linear-gradient(
+        180deg, 
+        rgba(14, 14, 14, 0.69) 5%, 
+        rgba(14, 14, 14, 0) 40%, 
+        rgba(14, 14, 14, 0.85) 75%, 
+        #080808 90%), 
+    url(/img/families\ page\ bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: top;
+    background-size: cover;
+    height: 85vh;
+    background-position-y: -50px;
+
+}
+
+.frst-section-families{
+    height: 60vh;
+}
+
+.nav-pages{
+    text-decoration: none;
+    font-size: 16px;
+    color: #f3f3f3;
+    padding: 0 30px;
+}
+
+
+
+.dscrpt{
+    text-align: center;
+    color: #f3f3f3;
+    padding-top: 14%;
+}
+
+.dscrpt p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.search-form {
+    text-align: center;
+    outline: none;
+    padding: 25vh 0 0 0;
+}
+
+
+
+.search-txt{
+    width: 400px;
+    height: 40px;
+    border: none;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    padding: 0 20px;
+    color: #0e0e0e;
+    background-color: #f3f3f3;
+    outline: none;
+
+}
+.search-form button {
+    width: 70px;
+    height: 40px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    background-color: #4E8213;
+    color: #f3f3f3;
+    margin-left: -4px;
+}
+
+.search-form button:hover{
+    background-color: rgba(78, 130, 19, 0.808);
+}
+
+
+.sticky-categorizing ul {
+    position: sticky;
+    top: 80px;
+    z-index: 200;
+}
+
+.categorizing select {
+    width: 280px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    padding: 0 20px;
+    margin: 10px 0;
+    font-size: 14px;
+    font-weight: 500;
+    outline: none;
+}
+.categorize-btn{
+    width: 280px;
+    height: 40px;
+    margin: 10px 0;
+    background-color: #4E8213;
+    color: #f3f3f3;
+    font-size: 16px;
+    text-align: center;
+}
+
+.categorize-btn:hover {
+    background-color: rgba(78, 130, 19, 0.708);
+}
+
+  
+.card-grid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 45px;
+    grid-row-gap: 45px;
+    max-width: auto;
+    width: 100%;
+    justify-content: center;
+    padding: 10px 0 0 40px;
+}
+  
+  @media(min-width: 540px){
+    .card-grid{
+      grid-template-columns: repeat(1, 1fr); 
+    }
+  }
+  
+  @media(min-width: 960px){
+    .card-grid{
+      grid-template-columns: repeat(3, 1fr); 
+    }
+  }
+  
+.card{
+    list-style: none;
+    position: relative;
+    overflow: hidden;
+    border-radius: 24px;
+  }
+  
+.card:before{
+    content: '';
+    display: block;
+    padding-bottom: 140%;
+    width: 100%;
+}
+
+.card__background{
+    background-size: cover;
+    background-position: center;
+    border-radius: 24px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform-origin: center;
+    transform: scale(1) translateZ(0);
+    transition: 
+      filter 100ms linear,
+      transform 100ms linear;
+    
+}
+
+  
+.card:hover .card__background{
+     filter: brightness(0.8);
+     transform: scale(1.05) translateZ(0);
+}
+  
+  
+.card-grid:hover > .card:not(:hover) .card__background {
+    filter: brightness(1) saturate(0.8) contrast(1.2) blur(2px);
+}
+  
+
+  
+  .card__content{
+    padding: 20px 20px 20px 20px;
+    position: absolute;
+    bottom: 0;
+  }
+  
+  .card__category{
+    color: #f3f3f3;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-transform: Capitalize;
+    line-height: 1.4;
+  }
+  
+  .card__heading{
+    
+    color: #f3f3f3;
+    font-size: 32px;
+    text-shadow: 2px 2px 20px rgba(0,0,0,0.5);
+    line-height: 1.4;
+    word-spacing: 100vw;
+  }
+  .checked {
+    color: orange;
+  }
+  .cl{
+    color: rgb(136, 136, 136);
+  }
+  .icon-nav {
+      color: rgb(236, 236, 236);
+  }
+  .view-more{
+      background-color: #080808;
+      padding: 3%  0;
+      padding-left: 57%;
+  }
+  .view-more-btn{
+      height: 30px;
+      width: 130px;
+      background-color: #4E8213;
+      color: #f3f3f3;
+  }
+
+  .view-more-btn:hover {
+      background-color: rgba(78, 130, 19, 0.76) ;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Tours Page */ 
+
+  .tour-page{
+    background: linear-gradient(
+        180deg, 
+        rgba(14, 14, 14, 0.69) 5%, 
+        rgba(14, 14, 14, 0) 40%, 
+        rgba(14, 14, 14, 0.85) 75%, 
+        #080808 90%), 
+    url(/img/tours\ page\ bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: top;
+    background-size: cover;
+    height: 90vh;
+    background-position-y: -90px;
+
+}
+
+.frst-sections{
+    height: 70vh;
+}
+
+.search-form-tours {
+    text-align: center;
+    outline: none;
+    padding: 25vh 0 0 0;
+}
+
+
+.search-txt{
+    width: 400px;
+    height: 40px;
+    border: none;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    padding: 0 20px;
+    color: #0e0e0e;
+    background-color: #f3f3f3;
+    outline: none;
+
+}
+.search-form-tours button {
+    width: 70px;
+    height: 40px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    background-color: #7B776F;
+    color: #f3f3f3;
+    margin-left: -4px;
+}
+
+.search-form-tours button:hover{
+    background-color:rgba(123, 119, 111, 0.781);
+}
+
+.scnd-sections{
+    padding: 0 40px;
+    background:#080808;
+    display: flex;
+    
+}
+
+.sticky-categorizing ul {
+    position: sticky;
+    top: 80px;
+    z-index: 200;
+}
+
+.categorizing select {
+    width: 280px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    padding: 0 20px;
+    margin: 10px 0;
+    font-size: 14px;
+    font-weight: 500;
+    outline: none;
+}
+.categorize-btn-tours{
+    width: 280px;
+    height: 40px;
+    margin: 10px 0;
+    background-color: #7B776F;
+    color: #f3f3f3;
+    font-size: 16px;
+    text-align: center;
+}
+
+.categorize-btn-tours:hover {
+    background-color: rgba(123, 119, 111, 0.774);
+}
+
+  
+  .card-grid-tours{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 45px;
+    grid-row-gap: 45px;
+    max-width: auto;
+    width: 100%;
+    justify-content: center;
+    padding: 10px 0 0 40px;
+  }
+  
+  @media(min-width: 540px){
+    .card-grid-tours{
+      grid-template-columns: repeat(1, 1fr); 
+    }
+  }
+  
+  @media(min-width: 960px){
+    .card-grid-tours{
+      grid-template-columns: repeat(2, 1fr); 
+    }
+  }
+  
+  .card-tours{
+    list-style: none;
+    position: relative;
+    overflow: hidden;
+    border-radius: 24px;
+  }
+  
+  .card-tours:before{
+    content: '';
+    display: block;
+    padding-bottom: 70%;
+    width: 100%;
+  }
+  
+  .card__background-t{
+    background-size: cover;
+    background-position: center;
+    border-radius: 24px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform-origin: center;
+    transform: scale(1) translateZ(0);
+    transition: 
+      filter 100ms linear,
+      transform 100ms linear;
+    
+  }
+  
+  .card-tours:hover .card__background-t{
+     filter: brightness(0.8);
+     transform: scale(1.05) translateZ(0);
+  }
+  
+  
+  .card-grid-tours:hover > .card-tours:not(:hover) .card__background-t {
+    filter: brightness(1) saturate(0.8) contrast(1.2) blur(2px);
+  }
+  
+  .card__content-t{
+    left: 0;
+    padding: 20px 40px 20px 20px;
+    position: absolute;
+    bottom: 0;
+  }
+  
+  .card__category-t{
+    color: #f3f3f3;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-transform: Capitalize;
+    line-height: 1.4;
+  }
+  
+  .checked-t {
+    color: orange;
+  }
+  .cl-t{
+    color: rgb(136, 136, 136);
+  }
+  .icon-nav-t {
+      color: rgb(236, 236, 236);
+  }
+  .view-more-tours{
+      background-color: #080808;
+      padding: 3%  0;
+      padding-left: 57%;
+  }
+  .view-more-btn-tours{
+      height: 30px;
+      width: 130px;
+      background-color: #7B776F;
+      color: #f3f3f3;
+  }
+
+  .view-more-btn-tours:hover {
+      background-color: rgba(123, 119, 111, 0.781);
+  }
+
+
+
+
+
+
