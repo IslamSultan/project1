@@ -501,18 +501,14 @@ footer p{
     background-position-y: -80px;
 
 }
-
 .frst-sections{
     height: 70vh;
 }
-
 .search-form-tours {
     text-align: center;
     outline: none;
     padding: 25vh 0 0 0;
 }
-
-
 .search-txt{
     width: 400px;
     height: 40px;
@@ -534,24 +530,20 @@ footer p{
     color: #f3f3f3;
     margin-left: -4px;
 }
-
 .search-form-tours button:hover{
     background-color:rgba(123, 119, 111, 0.781);
 }
-
 .scnd-sections{
     padding: 0 40px;
     background:#080808;
     display: flex;
     
 }
-
 .sticky-categorizing ul {
     position: sticky;
     top: 80px;
     z-index: 200;
 }
-
 .categorizing select {
     width: 280px;
     height: 40px;
@@ -572,12 +564,9 @@ footer p{
     font-size: 16px;
     text-align: center;
 }
-
 .categorize-btn-tours:hover {
     background-color: rgba(123, 119, 111, 0.774);
-}
-
-  
+} 
 .card-grid-tours{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -588,33 +577,28 @@ footer p{
     justify-content: center;
     padding: 10px 0 0 40px;
 }
-  
   @media(min-width: 540px){
     .card-grid-tours{
       grid-template-columns: repeat(1, 1fr); 
     }
-  }
-  
+  } 
   @media(min-width: 960px){
     .card-grid-tours{
       grid-template-columns: repeat(2, 1fr); 
     }
   }
-  
   .card-tours{
     list-style: none;
     position: relative;
     overflow: hidden;
     border-radius: 24px;
-  }
-  
+  } 
   .card-tours:before{
     content: '';
     display: block;
     padding-bottom: 70%;
     width: 100%;
   }
-  
   .card__background-t{
     background-size: cover;
     background-position: center;
@@ -630,36 +614,30 @@ footer p{
       filter 100ms linear,
       transform 100ms linear;
     
-  }
-  
+  } 
   .card-tours:hover .card__background-t{
      filter: brightness(0.8);
      transform: scale(1.05) translateZ(0);
   }
-  
-  
   .card-grid-tours:hover > .card-tours:not(:hover) .card__background-t {
     filter: brightness(1) saturate(0.8) contrast(1.2) blur(2px);
   }
   .card-grid-tours:hover > .card-tours:not(:hover) .card__content-t {
     filter: brightness(1) saturate(0.8) contrast(1.2) blur(1px);
   }
-  
   .card__content-t{
     left: 0;
     padding: 20px;
     position: absolute;
     bottom: 0;
   }
-  
   .card__category-t{
     color: #f3f3f3;
     font-size: 16px;
     margin-bottom: 10px;
     text-transform: Capitalize;
     line-height: 1.4;
-  }
-  
+  } 
   .checked-t {
     color: orange;
   }
@@ -680,11 +658,9 @@ footer p{
       background-color: #7B776F;
       color: #f3f3f3;
   }
-
   .view-more-btn-tours:hover {
       background-color: rgba(123, 119, 111, 0.781);
   }
-
 .card-heading-t{
     color: #f3f3f3;
     font-size: 28px;
@@ -692,7 +668,6 @@ footer p{
     line-height: 1.4;
     margin-bottom: 10px;
 }
-
 .div-by-guide-t {
     position: absolute;
     top: 20px;
@@ -700,7 +675,6 @@ footer p{
     transition: 0.4s ease-in;
     z-index: 200;
 }
-
 .by-guide-t{
       background-color: #f3f3f3;
       padding: 0 1vw 0 1vw;
@@ -710,11 +684,9 @@ footer p{
       font-weight: 700;
       text-transform: uppercase;
   }
-
   .card-tours:hover .div-by-guide-t {
       right: 20px;
   }
-
 .dp-info{
     display: flex;
 }
@@ -724,9 +696,7 @@ footer p{
     color: #f3f3f3;
     font-size: 16px;
     text-transform: uppercase;
-
 }
-
 .duration-t{
     padding-right: 20px;
 }
@@ -745,7 +715,6 @@ footer p{
     color: orange;
     
 }
-
 .tour-category{
 
     z-index: 20;
@@ -759,9 +728,178 @@ footer p{
     align-items: center;
     display: inline-block;
 }
-
 .card-tours:hover .tour-category {
     left: 20px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Get a tour quote page */
+
+.get-qp {
+    background: linear-gradient(
+        180deg, 
+        rgba(08, 08, 08, 0.4) 5%, 
+        rgba(08, 08, 08, 0.65) 20%, 
+        rgba(08, 08, 08, 0.85) 50%,
+        rgba(08, 08, 08, 1) 70%), 
+    url(/img/Local\ Family\ 5\ -\ Tomáš\ Balbinder.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: top;
+    background-size: cover;
+    height: 95vh;    
+    background-color: #080808;
+
+}
+
+.frms {
+    display: list-item;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.frms h3 {
+    text-transform: uppercase;
+    font-size: 90px;
+    padding-top: 5vh;
+    color: #f3f3f3;
+    text-align: center;
+}
+
+.frms select {
+    width: 420px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    padding: 0 20px;
+    font-size: 14px;
+    font-weight: 500;
+    outline: none;
+}
+
+.frms::before {
+    content: url(/img/oimo-for-dec.png);
+    position: absolute;
+    left:40px;
+    top: 40%;
+}
+.frms::after {
+    content: url(/img/oimo-for-dec.png);
+    position: absolute;
+    right:40px;
+    top: 40%;
+    transform: rotate(180deg);
+
+    
+}
+.frms input {
+    display: list-item;
+    justify-content: center;
+    margin: 10px auto;
+    width: 380px;
+    height: 40px;
+    border: 1px solid #f3f3f3;
+    border-radius: 30px;
+    padding: 0 20px;
+    outline: none;
+    font-size: 14px;
+    color: #f3f3f3;
+    background-color: rgba(08,08,08,0.5);
+}
+
+textarea {
+    width: 380px;
+    border-radius: 24px;
+    padding: 10px 20px;
+    background-color: rgba(08,08,08,0.5);
+    border: 1px solid #f3f3f3;
+    color: grey ;
+    outline: none;
+    font-size: 14px;
+    color: #f3f3f3;
+}
+
+.frms button{
+    display: list-item;
+    margin: 10px auto;
+    width: 420px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.frms button:hover {
+    background-color: #f3f3f3da;
+}
+
+.frms p{
+    font-size: 16px;
+    color: #f3f3f3;
+    text-align: center;
+}
+
+.frms a {
+    color: #f3f3f3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* login Page */
+.login-page {
+    background: linear-gradient(
+        180deg, 
+        rgba(08, 08, 08, 0.4) 5%, 
+        rgba(08, 08, 08, 0.65) 20%, 
+        rgba(08, 08, 08, 0.85) 40%,
+        rgba(08, 08, 08, 1) 90%), 
+    url(/img/login-page.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: top;
+    background-size: cover;
+    height: 100vh;
+    background-color: #080808;
+}
+
+.rememberme input{
+   width: 20px;
+   height: 20px;
+}
+.rememberme label {
+    font-size: 14px;
+    color: #f3f3f3;
+}
+
+.login-footer {
+    margin-top: 16vh;
+}
 
